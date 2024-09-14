@@ -48,7 +48,7 @@ public class ExampleController {
 
     @RequestMapping("/switch")
     public String switchcase(ModelMap map) {
-        map.addAttribute("sex", "woman");
+        map.addAttribute("gender", "woman");
         return "switch";
     }
 
